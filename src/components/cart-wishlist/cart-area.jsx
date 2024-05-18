@@ -12,7 +12,7 @@ const CartArea = () => {
   const dispatch = useDispatch()
   return (
     <>
-      <section className="tp-cart-area pb-120">
+      <section className="tp-cart-area pt-100 pb-200">
         <div className="container">
           {cart_products.length === 0 &&
             <div className='text-center pt-50'>

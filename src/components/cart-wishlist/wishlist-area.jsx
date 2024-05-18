@@ -7,7 +7,7 @@ const WishlistArea = () => {
   const { wishlist } = useSelector((state) => state.wishlist);
   return (
     <>
-      <section className="tp-cart-area pb-120">
+      <section className="tp-cart-area pt-100 pb-200">
         <div className="container">
           {wishlist.length === 0 &&
             <div className='text-center pt-50'>
